@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Цвет фона при нажатии -->
+    <item android:state_pressed="true" android:drawable="@color/button_pressed_color" />
+    <!-- Цвет фона по умолчанию -->
+    <item android:drawable="@color/button_default_color" />
+</selector>

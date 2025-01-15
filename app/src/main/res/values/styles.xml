@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomButtonStyle">
+        <!-- Применяем фон кнопки через селектор -->
+        <item name="android:background">@drawable/button_selector</item>
+        <!-- Цвет текста кнопки -->
+        <item name="android:textColor">@color/button_text_color</item>
+        <!-- Размеры и отступы -->
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="CustomButtonStyle2">
+        <item name="android:background">@drawable/button_selector2</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+</resources>
