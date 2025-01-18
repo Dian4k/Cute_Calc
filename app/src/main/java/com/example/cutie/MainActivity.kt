@@ -115,7 +115,7 @@ class MainActivity : AppCompatActivity() {
                 firstOperand = currentInput.toDouble()
                 var num = firstOperand
                 textView.text =
-                    if (factorial(num).isNaN()) "Х должен быть > 0" else factorial(num).toString()
+                    if (factorial(num).isNaN()) "Ошибка" else factorial(num).toString()
               }
         }
 
